@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                                                   xmlns:app="http://schemas.android.com/apk/res-auto"
+                                                   xmlns:tools="http://schemas.android.com/tools"
+                                                   android:layout_width="match_parent"
+                                                   android:layout_height="match_parent"
+                                                   tools:context="DetailActivity">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+            android:layout_width="328dp"
+            android:layout_height="322dp"
+            tools:src="@tools:sample/avatars"
+            android:id="@+id/iv_avatar"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.082"/>
+    <TextView
+            android:id="@+id/tv_first_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ID"
+            android:textAlignment="center"
+            android:textSize="40sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintHorizontal_bias="0.506"
+            app:layout_constraintVertical_bias="0.554"/>
+    <TextView
+            android:text="Surname"
+            android:layout_width="287dp"
+            android:layout_height="37dp"
+            android:textAlignment="center"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:id="@+id/tv_last_name"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.638" app:layout_constraintHorizontal_bias="0.498"/>
+
+    <ImageView
+            android:src="@drawable/ic_email"
+            android:layout_width="78dp"
+            android:layout_height="54dp" android:id="@+id/iv_ic_email"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.717" app:layout_constraintHorizontal_bias="0.498"/>
+    <TextView
+            android:text="email"
+            android:layout_width="391dp"
+            android:layout_height="58dp"
+            android:textAlignment="center"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:id="@+id/tv_email"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.802"/>
+</androidx.constraintlayout.widget.ConstraintLayout>
